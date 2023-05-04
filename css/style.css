@@ -1,0 +1,97 @@
+/*Barra de Navegacion*/
+.navbar {
+    padding: 1rem;
+   
+
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link-green{
+    color: green;
+}
+
+section {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+
+
+.bg-img {
+    background-image: url("../images/hawaii.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .flex{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: end;
+    text-align: end;
+    justify-content: center;
+  }
+  
+  .text-size{
+    font-size: 18px;
+  }
+  
+  .overlay {
+    margin:0 4px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .btn-outline {
+    color: white;
+    border: white 1px solid;
+  }
+  .btn-tickets{
+    background-color: rgb(41,167,68);
+  }
+
+.footer {
+    margin-top: 1vh;
+    align-items: center;
+    padding: 2Vh 15vh;
+    background-color: rgb(42, 62, 62);
+}
+
+
+
+
+
+/*Responsivo*/
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+/*
+.row {
+    background-color: orange;
+    border: 3px solid red;
+    padding: 5px;
+    margin: 10px;
+}
+.col {
+    background-color: aqua;
+    color: black;
+    font-size: 50px;
+    border: 2px solid black
+}
+*/
