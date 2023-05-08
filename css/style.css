@@ -1,30 +1,34 @@
-/*Barra de Navegacion*/
-.navbar {
-    padding: 1rem;
-   
-
+.section {
+    justify-content: center;
+}
+.text-center {
+    text-align: center!important;
 }
 .navbar-collapse {
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
-.nav-link-green{
-    color: green;
+.nombre-orador h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
 }
-
-section {
+.overlay {
+    margin: 0 4px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
     display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
 }
-
-
-
-
-
 .bg-img {
-    background-image: url("../images/hawaii.jpg");
+    background-image: url(../imgs/ba1.jpg);
     background-size: cover;
     height: 90vh;
     background-position: center center;
@@ -33,9 +37,8 @@ section {
     margin: 0;
     padding: 0;
     text-align: right;
-  }
-  
-  .flex{
+}
+.flex {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -43,55 +46,4 @@ section {
     align-items: end;
     text-align: end;
     justify-content: center;
-  }
-  
-  .text-size{
-    font-size: 18px;
-  }
-  
-  .overlay {
-    margin:0 4px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  
-  .btn-outline {
-    color: white;
-    border: white 1px solid;
-  }
-  .btn-tickets{
-    background-color: rgb(41,167,68);
-  }
-
-.footer {
-    margin-top: 1vh;
-    align-items: center;
-    padding: 2Vh 15vh;
-    background-color: rgb(42, 62, 62);
 }
-
-
-
-
-
-/*Responsivo*/
-@media screen and (max-width: 767px) {
-    .navbar-brand {
-        display: none;
-    }
-}
-/*
-.row {
-    background-color: orange;
-    border: 3px solid red;
-    padding: 5px;
-    margin: 10px;
-}
-.col {
-    background-color: aqua;
-    color: black;
-    font-size: 50px;
-    border: 2px solid black
-}
-*/
